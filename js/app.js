@@ -1,9 +1,18 @@
+//Cri
+window.addEventListener("load", function() {
+	var boton = document.getElementById("btn-cri");
+
+});
 
 
+
+
+//SuperCri
 window.addEventListener("load", function() {
 	var boton = document.getElementById("btn-supercri");
 	boton.addEventListener("click", function() {
 		var color = document.getElementById("color").value;
+
 		if (color == "green") {
 			document.getElementById("orange").classList.add("border-green");
 			document.getElementById("green").classList.remove("border-purple");
