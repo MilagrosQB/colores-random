@@ -4,9 +4,6 @@ window.addEventListener("load", function() {
 
 });
 
-
-
-
 //SuperCri
 window.addEventListener("load", function() {
 	var boton = document.getElementById("btn-supercri");
